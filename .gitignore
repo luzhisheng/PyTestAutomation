@@ -1,0 +1,8 @@
+.idea/
+.env
+*.csv
+*.xlsx
+*.xlsx#
+*.zip
+*.pyc
+venv/

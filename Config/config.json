@@ -1,0 +1,23 @@
+[{
+  "request": {
+    "method": "post",
+    "uri": "/login"
+  },
+  "response": {
+    "json": {
+      "user": "1111",
+      "password": "dsadad",
+      "message": "this is message"
+    }
+  }
+},
+{
+  "request": {
+    "method": "get",
+    "uri": "/register"
+  },
+  "response": {
+    "text": "this is register"
+  }
+}
+]

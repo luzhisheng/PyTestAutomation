@@ -1,0 +1,8 @@
+{
+  "api/user": {"username": "ayf", "age": "123", "code":  1000},
+  "api/user_list": {
+    "user_list": [{"username": "ayf", "age": "123"}, {"username": "xl", "age": "123"}],
+    "code": 1000
+  },
+  "api/beta": {"username": "ayf", "age": "123", "code":  1000}
+}
