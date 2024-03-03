@@ -3,7 +3,7 @@ from base_request import request
 from Util.handle_result import handle_result
 
 
-class RunMain(object):
+class TestQcc(object):
 
     def run_case(self):
         hand_excel = HandExcel('qcc.xlsx')
@@ -27,5 +27,5 @@ class RunMain(object):
 
 
 if __name__ == '__main__':
-    run_main = RunMain()
+    run_main = TestQcc()
     run_main.run_case()
