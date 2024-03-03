@@ -8,12 +8,15 @@ parent_directory = os.path.dirname(current_directory)  # 获取上一级目录
 
 class HandExcel(object):
 
+    def __init__(self, xlsx_name):
+        self.xlsx_name = xlsx_name
+
     def load_excel(self, sheet_name=0):
         """
         加载excel
         :return:
         """
-        df = pd.read_excel(parent_directory + r'\Case\baidu.xlsx', sheet_name)
+        df = pd.read_excel(parent_directory + fr'\File\{self.xlsx_name}', sheet_name)
         return df
 
     def get_cell_value(self, row, cols_name):
@@ -50,15 +53,12 @@ class HandExcel(object):
         """
         df = self.load_excel()
         df.at[row, cols] = value
-        df.to_excel(parent_directory + r'\Case\baidu.xlsx', index=False)
+        df.to_excel(parent_directory + fr'\File\{self.xlsx_name}', index=False)
         print(df)
         return df
 
 
-hand_excel = HandExcel()
-
-
 if __name__ == '__main__':
-    hand_excel = HandExcel()
+    hand_excel = HandExcel('qcc.xlsx')
     hand_excel.write_excel(0, '测试执行结果', '通过')
     hand_excel.write_excel(1, '测试执行结果', '通过')
