@@ -18,7 +18,7 @@ java -jar moco-runner-<version>.standalone.jar start -p <port> -c <configuration
 
 命令启动
 ```shell
-java -jar moco-runner-1.5.0-standalone.jar start -p 5555 -c config.json
+java -jar moco-runner-1.5.0-standalone.jar start -p 5555 -c 测试数据.json
 ```
 
 配置文件内容
