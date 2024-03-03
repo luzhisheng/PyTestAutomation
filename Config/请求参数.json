@@ -1,0 +1,62 @@
+{
+  "app": {
+    "qcc_001|/app/v1/extras/getDataChannelRedDot": {
+      "hitTarget": "",
+      "sign": "66f5f50a97811ff38de752e9c94c4225%7C%7Cd",
+      "timestamp": "1709486332363",
+      "platform": "other",
+      "deviceId": "v%2FdkZQQ",
+      "app_channel": "pp\n"
+    },
+    "qcc_002|/app/v1/extras/getAdsBuoy": {
+      "displayForm": "17",
+      "timestamp": "1709486332401",
+      "sign": "962a93751cd05f39ce931c246f630f19%7C%7Cd",
+      "platform": "other",
+      "deviceId": "ZeSeMjmFaOMDACo5No%2FdkZQQ",
+      "app_channel": "pp\n"
+    },
+    "qcc_003|/app/v1/order/hasCoupon": {
+      "channel": "pp",
+      "hasShowPop": "false",
+      "isUpgradePackage": "false",
+      "timestamp": "1709486332389",
+      "sign": "1288fdebc865e648bb61c86b7ec72168%7C%7Cd",
+      "platform": "other",
+      "deviceId": "ZeSeMjmFaOMDACo5No%2FdkZQQ",
+      "app_channel": "pp"
+    },
+    "qcc_004|/app/v2/msg/getMsgList": {
+      "filter": "",
+      "startTime": "",
+      "endTime": "",
+      "pageSource": "home",
+      "pageIndex": "1",
+      "timestamp": "1709486332417",
+      "sign": "873f4ea8a6f20f3a3efc09c94ae8a4a2%7C%7Cd",
+      "platform": "other",
+      "deviceId": "ZeSeMjmFaOMDACo5No%2FdkZQQ",
+      "app_channel": "pp"
+    },
+    "qcc_005|app/v1/extras/getDataChannelRedDot": {
+      "hitTarget": "",
+      "sign": "5885d6e710a0f0120b067b47618bd262%7C%7Cd",
+      "timestamp": "1709485072912",
+      "platform": "other",
+      "deviceId": "ZeSeMjmFaOMDACo5No%2FdkZQQ",
+      "app_channel": "pp"
+    },
+    "qcc_006|/app/v2/dynamic/getDynamicListFilterOptions": {
+      "source": "all",
+      "keyNo": "",
+      "timestamp": "1709485072912",
+      "sign": "5885d6e710a0f0120b067b47618bd262%7C%7Cd",
+      "platform": "other",
+      "deviceId": "ZeSeMjmFaOMDACo5No%2FdkZQQ",
+      "app_channel": "pp"
+    }
+  },
+  "web": {
+    "apsid": ""
+  }
+}

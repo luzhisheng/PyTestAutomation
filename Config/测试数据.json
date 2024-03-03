@@ -1,0 +1,1272 @@
+[
+  {
+    "request": {
+      "method": "get",
+      "uri": "/app/v1/order/hasCoupon?channel=pp&hasShowPop=false&isUpgradePackage=false&timestamp=1709486332389&sign=1288fdebc865e648bb61c86b7ec72168%7C%7Cd&platform=other&deviceId=ZeSeMjmFaOMDACo5No%2FdkZQQ&app_channel=pp"
+    },
+    "response": {
+      "json": {
+        "message": "成功",
+        "result": {
+          "advers": [
+            {
+              "click_count": "0",
+              "cms_id": "0226f29542d4465a808bd9593b756c80",
+              "company": "",
+              "des": "{\"android\":{\"page\":\"com.android.icredit.ui.CommonH5ShowActivity\",\"titleName\":\"幸运用户\",\"loadUrl\":\"https://apph5.qichacha.com/activities/tpl-for-vip/index?campaignId=fe9d12889cf0468280f7e4badbbf432a&activityCode=0226f29542d4465a808bd9593b756c80\"}}",
+              "digg_count": "0",
+              "keywords": "",
+              "pic": "https://eciapp-img.qichacha.com/ocr/configuration-managerment/1709208876190/APPbanner351x75%403x%201.png",
+              "picLarge": "https://eciapp-img.qichacha.com/ocr/configuration-managerment/1709208876190/APPbanner750_80%20%403x%201.png",
+              "pubdate": "2019-10-21",
+              "shareIcon": "",
+              "short_title": "幸运用户",
+              "source": "企查查",
+              "tags": "",
+              "title": "幸运用户",
+              "url": "https://apph5.qichacha.com/activities/tpl-for-vip/index?campaignId=fe9d12889cf0468280f7e4badbbf432a&activityCode=0226f29542d4465a808bd9593b756c80",
+              "version_code": null
+            }
+          ],
+          "resultData": {
+            "activityCode": "3273616af7db4c1db2fd660a378ee197",
+            "activityImgUrl": "",
+            "activityName": "幸运用户",
+            "activityUrl": "https://apph5.qichacha.com/activities/tpl-for-vip/index?campaignId=fe9d12889cf0468280f7e4badbbf432a&isPop=1&__without_bg=1&activityCode=3273616af7db4c1db2fd660a378ee197&img=&url=https%3A%2F%2Fapph5.qichacha.com%2Factivities%2Ftpl-for-vip%2Findex%3FcampaignId%3Dfe9d12889cf0468280f7e4badbbf432a%26isPop%3D1%26__without_bg%3D1",
+            "couponList": []
+          }
+        },
+        "status": 200
+      }
+    }
+  },
+  {
+    "request": {
+      "method": "get",
+      "uri": "/app/v1/extras/getDataChannelRedDot?hitTarget=&sign=66f5f50a97811ff38de752e9c94c4225%7C%7Cd&timestamp=1709486332363&platform=other&deviceId=ZeSeMjmFaOMDACo5No%2FdkZQQ&app_channel=pp"
+    },
+    "response": {
+      "message": "成功",
+      "result": {
+        "showRedDot": false
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "method": "post",
+      "uri": "/app/v1/extras/getAdsBuoy"
+    },
+    "response": {
+      "message": "成功",
+      "result": {
+        "adsBuoy": null
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "method": "get",
+      "uri": "/app/v1/extras/getAdsBuoy/app/v2/msg/getMsgList?filter=&startTime=&endTime=&pageSource=home&pageIndex=1&timestamp=1709486332417&sign=873f4ea8a6f20f3a3efc09c94ae8a4a2%7C%7Cd&platform=other&deviceId=ZeSeMjmFaOMDACo5No%2FdkZQQ&app_channel=pp"
+    },
+    "response": {
+      "message": "成功",
+      "result": {
+        "HasNewMsg": false,
+        "Paging": {
+          "count": "0",
+          "currentpage": "1",
+          "totalpage": 0
+        },
+        "Result": [],
+        "Router": "qcc://MessageNotificationList?settingsUrl=https%3A%2F%2Fapph5.qichacha.com%2Fcommon%2Fmessage%2Fswitch"
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "method": "get",
+      "uri": "/app/v1/extras/getDataChannelRedDot?hitTarget=&sign=1d385eb9acb254e81e2fc45e3954f1bc%7C%7Cd&timestamp=1709487862692&platform=other&deviceId=ZeSeMjmFaOMDACo5No%2FdkZQQ&app_channel=pp"
+    },
+    "response": {
+      "message": "成功",
+      "result": {
+        "showRedDot": false
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "method": "get",
+      "uri": "/app/v2/dynamic/getDynamicListFilterOptions?source=all&keyNo=&timestamp=1709487862688&sign=00487bdfe6cd11b697e33541ed1674a2%7C%7Cd&platform=other&deviceId=ZeSeMjmFaOMDACo5No%2FdkZQQ&app_channel=pp"
+    },
+    "response": {
+      "message": "成功",
+      "result": {
+        "dateFilter": [
+          {
+            "desc": "全部",
+            "value": ""
+          },
+          {
+            "desc": "今天",
+            "value": "2024-03-04,2024-03-04"
+          },
+          {
+            "desc": "近7天",
+            "value": "2024-02-27,2024-03-04"
+          },
+          {
+            "desc": "近30天",
+            "value": "2024-02-04,2024-03-04"
+          }
+        ],
+        "dateFilterGlossaryId": 241,
+        "filterOptions": [
+          {
+            "Desc": "全部",
+            "Includes": [
+              {
+                "Category": "",
+                "Count": 0,
+                "Desc": "全部"
+              }
+            ]
+          },
+          {
+            "Desc": "工商",
+            "Includes": [
+              {
+                "Category": "39,46,44,24,25,17,68,37,41,38,60,40,42,72,201,202,215,203,204,114,240,241,222,116,123",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "39,72(1-2-3-7),201,222(1-2-3-7)",
+                "Count": 0,
+                "Desc": "法定代表人变更"
+              },
+              {
+                "Category": "46,72(1-2-4-5),202,222(1-2-4-5)",
+                "Count": 0,
+                "Desc": "主要成员变更"
+              },
+              {
+                "Category": "44,72(1-3-4-6)",
+                "Count": 0,
+                "Desc": "股东变更"
+              },
+              {
+                "Category": "24,215",
+                "Count": 0,
+                "Desc": "大股东变更"
+              },
+              {
+                "Category": "25,240",
+                "Count": 0,
+                "Desc": "实际控制人变更"
+              },
+              {
+                "Category": "114,241",
+                "Count": 0,
+                "Desc": "最终受益人变更"
+              },
+              {
+                "Category": "17,203,68,204,222(6)",
+                "Count": 0,
+                "Desc": "对外投资变更"
+              },
+              {
+                "Category": "37,123",
+                "Count": 0,
+                "Desc": "注册资本变更"
+              },
+              {
+                "Category": "41",
+                "Count": 0,
+                "Desc": "经营范围变更"
+              },
+              {
+                "Category": "38",
+                "Count": 0,
+                "Desc": "经营状态变更"
+              },
+              {
+                "Category": "60",
+                "Count": 0,
+                "Desc": "企业名称变更"
+              },
+              {
+                "Category": "40",
+                "Count": 0,
+                "Desc": "企业地址变更"
+              },
+              {
+                "Category": "42",
+                "Count": 0,
+                "Desc": "企业类型变更"
+              },
+              {
+                "Category": "116",
+                "Count": 0,
+                "Desc": "登记机关变更"
+              }
+            ],
+            "Type": 1
+          },
+          {
+            "Desc": "诉讼",
+            "Includes": [
+              {
+                "Category": "2,205,55,208,91,231,3,206,4,221,7,218,18,219,27,217,26,212,49,220,90,232,56,216,57,58,59,224,109,239",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "2,205",
+                "Count": 0,
+                "Desc": "失信被执行人"
+              },
+              {
+                "Category": "3,206",
+                "Count": 0,
+                "Desc": "被执行人"
+              },
+              {
+                "Category": "55,208",
+                "Count": 0,
+                "Desc": "限制高消费"
+              },
+              {
+                "Category": "56,216",
+                "Count": 0,
+                "Desc": "终本案件"
+              },
+              {
+                "Category": "4,221",
+                "Count": 0,
+                "Desc": "裁判文书"
+              },
+              {
+                "Category": "49,220",
+                "Count": 0,
+                "Desc": "立案信息"
+              },
+              {
+                "Category": "18,219",
+                "Count": 0,
+                "Desc": "开庭公告"
+              },
+              {
+                "Category": "7,218",
+                "Count": 0,
+                "Desc": "法院公告"
+              },
+              {
+                "Category": "27,217",
+                "Count": 0,
+                "Desc": "送达公告"
+              },
+              {
+                "Category": "58",
+                "Count": 0,
+                "Desc": "破产重整"
+              },
+              {
+                "Category": "26,212",
+                "Count": 0,
+                "Desc": "股权冻结"
+              },
+              {
+                "Category": "57",
+                "Count": 0,
+                "Desc": "司法拍卖"
+              },
+              {
+                "Category": "59,224",
+                "Count": 0,
+                "Desc": "询价评估"
+              },
+              {
+                "Category": "90,232",
+                "Count": 0,
+                "Desc": "诉前调解"
+              },
+              {
+                "Category": "91,231",
+                "Count": 0,
+                "Desc": "限制出境"
+              },
+              {
+                "Category": "109,239",
+                "Count": 0,
+                "Desc": "公安通告"
+              }
+            ],
+            "Type": 2
+          },
+          {
+            "Desc": "监管",
+            "Includes": [
+              {
+                "Category": "11,107,238,20,22,29,31,48,223,78,98,61,23",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "107,238",
+                "Count": 0,
+                "Desc": "行政处罚"
+              },
+              {
+                "Category": "11",
+                "Count": 0,
+                "Desc": "经营异常"
+              },
+              {
+                "Category": "20",
+                "Count": 0,
+                "Desc": "严重违法"
+              },
+              {
+                "Category": "22",
+                "Count": 0,
+                "Desc": "环保处罚"
+              },
+              {
+                "Category": "31",
+                "Count": 0,
+                "Desc": "欠税公告"
+              },
+              {
+                "Category": "48,223",
+                "Count": 0,
+                "Desc": "违规处理"
+              },
+              {
+                "Category": "29",
+                "Count": 0,
+                "Desc": "税收违法"
+              },
+              {
+                "Category": "23",
+                "Count": 0,
+                "Desc": "简易注销"
+              },
+              {
+                "Category": "61",
+                "Count": 0,
+                "Desc": "注销备案"
+              },
+              {
+                "Category": "98",
+                "Count": 0,
+                "Desc": "未准入境"
+              },
+              {
+                "Category": "78",
+                "Count": 0,
+                "Desc": "产品召回"
+              }
+            ],
+            "Type": 7
+          },
+          {
+            "Desc": "经营",
+            "Includes": [
+              {
+                "Category": "28,14,95,63,113,79,12,213,75,15,30,50,214,101,51",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "28",
+                "Count": 0,
+                "Desc": "融资动态"
+              },
+              {
+                "Category": "113",
+                "Count": 0,
+                "Desc": "企业公告"
+              },
+              {
+                "Category": "95",
+                "Count": 0,
+                "Desc": "行政许可"
+              },
+              {
+                "Category": "14",
+                "Count": 0,
+                "Desc": "抽查检查"
+              },
+              {
+                "Category": "63",
+                "Count": 0,
+                "Desc": "双随机抽查"
+              },
+              {
+                "Category": "79",
+                "Count": 0,
+                "Desc": "食品安全"
+              },
+              {
+                "Category": "12,213",
+                "Count": 0,
+                "Desc": "股权出质"
+              },
+              {
+                "Category": "50,214",
+                "Count": 0,
+                "Desc": "股权质押"
+              },
+              {
+                "Category": "15",
+                "Count": 0,
+                "Desc": "动产抵押"
+              },
+              {
+                "Category": "30",
+                "Count": 0,
+                "Desc": "土地抵押"
+              },
+              {
+                "Category": "101",
+                "Count": 0,
+                "Desc": "担保信息"
+              },
+              {
+                "Category": "51",
+                "Count": 0,
+                "Desc": "公示催告"
+              },
+              {
+                "Category": "75",
+                "Count": 0,
+                "Desc": "资产拍卖"
+              }
+            ],
+            "Type": 3
+          },
+          {
+            "Desc": "招投标",
+            "Includes": [
+              {
+                "Category": "54",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "54(1)",
+                "Count": 0,
+                "Desc": "中标"
+              },
+              {
+                "Category": "54(6)",
+                "Count": 0,
+                "Desc": " 中标候选"
+              },
+              {
+                "Category": "54(4)",
+                "Count": 0,
+                "Desc": " 投标"
+              },
+              {
+                "Category": "54(2)",
+                "Count": 0,
+                "Desc": "招采"
+              },
+              {
+                "Category": "54(3)",
+                "Count": 0,
+                "Desc": "建设"
+              }
+            ],
+            "Type": 4
+          },
+          {
+            "Desc": "新闻",
+            "Includes": [
+              {
+                "Category": "62,66,67",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "62",
+                "Count": 0,
+                "Desc": "积极"
+              },
+              {
+                "Category": "66",
+                "Count": 0,
+                "Desc": "中立"
+              },
+              {
+                "Category": "67",
+                "Count": 0,
+                "Desc": "消极"
+              }
+            ],
+            "Type": 5
+          }
+        ],
+        "filterOptions2": [
+          {
+            "Desc": "全部",
+            "Includes": [
+              {
+                "Category": "",
+                "Count": 0,
+                "Desc": "全部"
+              }
+            ]
+          },
+          {
+            "Desc": "工商",
+            "Includes": [
+              {
+                "Category": "201,202,215,203,204,240,241,222",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "201,222(1-2-3-7)",
+                "Count": 0,
+                "Desc": "法定代表人变更"
+              },
+              {
+                "Category": "202,222(1-2-4-5)",
+                "Count": 0,
+                "Desc": "主要成员变更"
+              },
+              {
+                "Category": "215",
+                "Count": 0,
+                "Desc": "大股东变更"
+              },
+              {
+                "Category": "203,204,222(6)",
+                "Count": 0,
+                "Desc": "对外投资变更"
+              },
+              {
+                "Category": "240",
+                "Count": 0,
+                "Desc": "实际控制人变更"
+              },
+              {
+                "Category": "241",
+                "Count": 0,
+                "Desc": "最终受益人变更"
+              }
+            ],
+            "Type": 1
+          },
+          {
+            "Desc": "诉讼",
+            "Includes": [
+              {
+                "Category": "205,208,231,206,216,217,218,219,220,232,221,224,239,212",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "205",
+                "Count": 0,
+                "Desc": "失信被执行人"
+              },
+              {
+                "Category": "206",
+                "Count": 0,
+                "Desc": "被执行人"
+              },
+              {
+                "Category": "208",
+                "Count": 0,
+                "Desc": "限制高消费"
+              },
+              {
+                "Category": "216",
+                "Count": 0,
+                "Desc": "终本案件"
+              },
+              {
+                "Category": "221",
+                "Count": 0,
+                "Desc": "裁判文书"
+              },
+              {
+                "Category": "220",
+                "Count": 0,
+                "Desc": "立案信息"
+              },
+              {
+                "Category": "219",
+                "Count": 0,
+                "Desc": "开庭公告"
+              },
+              {
+                "Category": "218",
+                "Count": 0,
+                "Desc": "法院公告"
+              },
+              {
+                "Category": "217",
+                "Count": 0,
+                "Desc": "送达公告"
+              },
+              {
+                "Category": "212",
+                "Count": 0,
+                "Desc": "股权冻结"
+              },
+              {
+                "Category": "224",
+                "Count": 0,
+                "Desc": "询价评估"
+              },
+              {
+                "Category": "232",
+                "Count": 0,
+                "Desc": "诉前调解"
+              },
+              {
+                "Category": "231",
+                "Count": 0,
+                "Desc": "限制出境"
+              },
+              {
+                "Category": "239",
+                "Count": 0,
+                "Desc": "公安通告"
+              }
+            ],
+            "Type": 2
+          },
+          {
+            "Desc": "监管",
+            "Includes": [
+              {
+                "Category": "238,223",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "238",
+                "Count": 0,
+                "Desc": "行政处罚"
+              },
+              {
+                "Category": "223",
+                "Count": 0,
+                "Desc": "违规处理"
+              }
+            ],
+            "Type": 7
+          },
+          {
+            "Desc": "新闻",
+            "Includes": [
+              {
+                "Category": "62,66,67",
+                "Count": 0,
+                "Desc": "全部"
+              },
+              {
+                "Category": "62",
+                "Count": 0,
+                "Desc": "积极"
+              },
+              {
+                "Category": "66",
+                "Count": 0,
+                "Desc": "中立"
+              },
+              {
+                "Category": "67",
+                "Count": 0,
+                "Desc": "消极"
+              }
+            ],
+            "Type": 5
+          }
+        ],
+        "focusGroupList": [
+          {
+            "cdate": "",
+            "company_count": "",
+            "defaultData": {
+              "group_btnName": "",
+              "group_img": "",
+              "group_subTitle": "",
+              "group_title": ""
+            },
+            "follow_group_id": "focus",
+            "group_img": "",
+            "group_name": "全部分组",
+            "remark": "",
+            "status": "",
+            "user_id": ""
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554726",
+            "group_name": "默认分组",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "97",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "default_group_type": [
+              "1"
+            ],
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "778122399",
+            "group_name": "默认企业",
+            "group_type": "1",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": true,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": false,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "96",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "default_group_type": [
+              "2"
+            ],
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "778122400",
+            "group_name": "默认人员",
+            "group_type": "2",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": true,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": false,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "95",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554727",
+            "group_name": "竞品",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "0",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554728",
+            "group_name": "客户",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "0",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554729",
+            "group_name": "供应商",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "0",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554730",
+            "group_name": "经销商",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "0",
+            "system_timing_switch": true,
+            "wx_switch": false
+          }
+        ],
+        "followGroupList": [
+          {
+            "cdate": "",
+            "company_count": "0",
+            "defaultData": {
+              "group_btnName": "",
+              "group_img": "",
+              "group_subTitle": "",
+              "group_title": ""
+            },
+            "follow_group_id": "all",
+            "group_img": "",
+            "group_name": "全部",
+            "remark": "",
+            "status": "",
+            "user_id": ""
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554726",
+            "group_name": "默认分组",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "97",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "default_group_type": [
+              "1"
+            ],
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "778122399",
+            "group_name": "默认企业",
+            "group_type": "1",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": true,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": false,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "96",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "default_group_type": [
+              "2"
+            ],
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "778122400",
+            "group_name": "默认人员",
+            "group_type": "2",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": true,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": false,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "95",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554727",
+            "group_name": "竞品",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "0",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554728",
+            "group_name": "客户",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "0",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554729",
+            "group_name": "供应商",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "0",
+            "system_timing_switch": true,
+            "wx_switch": false
+          },
+          {
+            "company_count": "0",
+            "dm_range": [],
+            "email_switch": false,
+            "follow_com_cnt": "0",
+            "follow_group_id": "38554730",
+            "group_name": "经销商",
+            "group_type": "0",
+            "is_def_message_range": true,
+            "is_def_report_range": true,
+            "is_default_group": false,
+            "is_default_range": true,
+            "is_dynamic": true,
+            "is_support": {
+              "is_add_follow": true,
+              "is_edit": true,
+              "is_friend": false,
+              "is_sort": true,
+              "is_sync": true
+            },
+            "push_message": true,
+            "push_report": false,
+            "sort": "0",
+            "system_timing_switch": true,
+            "wx_switch": false
+          }
+        ],
+        "followGroupManageRouter": "https://apph5.qichacha.com/follow/group-list",
+        "groupList": [
+          {
+            "cdate": "",
+            "company_count": "",
+            "defaultData": {
+              "group_btnName": "",
+              "group_img": "",
+              "group_subTitle": "",
+              "group_title": ""
+            },
+            "follow_group_id": "all",
+            "group_img": "",
+            "group_name": "全部",
+            "remark": "",
+            "status": "",
+            "user_id": ""
+          },
+          {
+            "cdate": "",
+            "company_count": "",
+            "defaultData": {
+              "group_btnName": "",
+              "group_img": "",
+              "group_subTitle": "",
+              "group_title": ""
+            },
+            "follow_group_id": "focus",
+            "group_img": "",
+            "group_name": "关注",
+            "remark": "",
+            "status": "",
+            "user_id": ""
+          },
+          {
+            "cdate": "",
+            "company_count": "",
+            "defaultData": {
+              "group_btnName": "",
+              "group_img": "",
+              "group_subTitle": "",
+              "group_title": ""
+            },
+            "follow_group_id": "friend",
+            "group_img": "",
+            "group_name": "好友",
+            "remark": "",
+            "status": "",
+            "user_id": ""
+          },
+          {
+            "cdate": "",
+            "company_count": "",
+            "defaultData": {
+              "group_btnName": "",
+              "group_img": "",
+              "group_subTitle": "",
+              "group_title": ""
+            },
+            "follow_group_id": "ownent",
+            "group_img": "",
+            "group_name": "所在企业",
+            "remark": "",
+            "status": "",
+            "user_id": ""
+          }
+        ],
+        "guideGroup": [
+          {
+            "desc": "70+维度企业动态，让你更了解自己的企业",
+            "follow_group_id": "ownent",
+            "group_name": "所在企业",
+            "img": "https://co-image.qichacha.com/upload/chacha/img/20200224/1582522616608084.png"
+          },
+          {
+            "desc": "注册资本变化、融资信息…竞争对手动态全掌握",
+            "follow_group_id": "38554727",
+            "group_name": "竞品",
+            "img": "https://co-image.qichacha.com/upload/chacha/img/20200224/1582522636325602.png"
+          },
+          {
+            "desc": "70+维度企业动态，让你更了解自己的客户",
+            "follow_group_id": "38554728",
+            "group_name": "客户",
+            "img": "https://co-image.qichacha.com/upload/chacha/img/20200224/158252264892067.png"
+          },
+          {
+            "desc": "官方数据，多维度呈现，助力供应链风控",
+            "follow_group_id": "38554729",
+            "group_name": "供应商",
+            "img": "https://co-image.qichacha.com/upload/chacha/img/20200224/158252266412177.png"
+          },
+          {
+            "desc": "多维度经营动态主力企业分销渠道管理",
+            "follow_group_id": "38554730",
+            "group_name": "经销商",
+            "img": "https://co-image.qichacha.com/upload/chacha/img/20200224/1582522676274588.png"
+          }
+        ],
+        "isOldFollowUser": false,
+        "isShowUpgradePrompt": false,
+        "normalFilterOptions": [
+          {
+            "Category": "39,46,44,24,25,17,68,37,41,38,60,40,42,72,201,202,215,203,204,114,240,241,222,116,123",
+            "Desc": "工商",
+            "GlossaryId": 414,
+            "Type": 1
+          },
+          {
+            "Category": "2,205,55,208,91,231,3,206,4,221,7,218,18,219,27,217,26,212,49,220,90,232,56,216,57,58,59,224,109,239",
+            "Desc": "诉讼",
+            "Type": 2
+          },
+          {
+            "Category": "11,107,238,20,22,29,31,48,223,78,98,61,23",
+            "Desc": "监管",
+            "Type": 7
+          },
+          {
+            "Category": "28,14,95,63,113,79,12,213,75,15,30,50,214,101,51",
+            "Desc": "经营",
+            "Type": 3
+          },
+          {
+            "Category": "54",
+            "Desc": "招投标",
+            "Type": 4
+          },
+          {
+            "Category": "62,66,67",
+            "Desc": "新闻",
+            "Type": 5
+          }
+        ],
+        "normalFilterOptions2": [
+          {
+            "Category": "201,202,215,203,204,240,241,222",
+            "Desc": "工商",
+            "GlossaryId": 414,
+            "Type": 1
+          },
+          {
+            "Category": "205,208,231,206,216,217,218,219,220,232,221,224,239,212",
+            "Desc": "诉讼",
+            "Type": 2
+          },
+          {
+            "Category": "238,223",
+            "Desc": "监管",
+            "Type": 7
+          },
+          {
+            "Category": "62,66,67",
+            "Desc": "新闻",
+            "Type": 5
+          }
+        ],
+        "relatedFilter": []
+      },
+      "status": 200
+    }
+  }
+]
