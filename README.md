@@ -52,3 +52,9 @@ java -jar moco-runner-1.5.0-standalone.jar start -p 5555 -c 测试数据.json
         ├─READMEIMG 文档图片
         ├─Report 报表导出
         ├─Util   工具类
+
+## 三、代码执行
+
+效果图：
+
+![img.png](READMEIMG/3.png)
