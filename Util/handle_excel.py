@@ -1,9 +1,5 @@
+from setting import current_directory
 import pandas as pd
-import os
-
-
-current_directory = os.getcwd()  # 获取当前工作目录
-parent_directory = os.path.dirname(current_directory)  # 获取上一级目录
 
 
 class HandExcel(object):
@@ -16,7 +12,7 @@ class HandExcel(object):
         加载excel
         :return:
         """
-        df = pd.read_excel(parent_directory + fr'\File\{self.xlsx_name}', sheet_name)
+        df = pd.read_excel(current_directory + fr'\File\{self.xlsx_name}', sheet_name)
         return df
 
     def get_cell_value(self, row, cols_name):
@@ -46,15 +42,14 @@ class HandExcel(object):
         row_by_label = df.loc[row].tolist()
         return row_by_label
 
-    def write_excel(self, row, cols, value):
+    def write_excel(self, row_value, cols, value):
         """
         写入某个单元格数据
         :return:
         """
         df = self.load_excel()
-        df.at[row, cols] = value
-        df.to_excel(parent_directory + fr'\File\{self.xlsx_name}', index=False)
-        print(df)
+        df.loc[df['case编号'] == row_value, cols] = value
+        df.to_excel(current_directory + fr'\File\{self.xlsx_name}', index=False)
         return df
 
 

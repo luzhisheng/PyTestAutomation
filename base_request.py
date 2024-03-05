@@ -1,7 +1,6 @@
 import json
 
 import requests
-from Util.handle_init import handle_init
 from Util.handle_json import read_json
 
 
@@ -36,20 +35,15 @@ class BaseRequest(object):
         :return:
         '''
 
-        base_url = handle_init.get_value('host')
-
-        if 'http' not in url:
-            url = base_url + url
-
         if method == "get":
             res = self.send_get(url, data)
         else:
             res = self.send_post(url, data)
         try:
             res = json.loads(res)
-        except:
-            print("结果是个text")
-        return res
+            return True, res
+        except json.decoder.JSONDecodeError:
+            return False, res
 
 
 request = BaseRequest()

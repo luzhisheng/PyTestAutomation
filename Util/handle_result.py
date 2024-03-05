@@ -1,16 +1,24 @@
-from Util.handle_json import read_json
+from deepdiff import DeepDiff
 
 
-def handle_result(url, code):
-    list_data = read_json(url, r"\Config\code_message.json")
-    if list_data:
-        for i in list_data:
-            message = i.get(str(code))
-            if message:
-                return message
-    return None
+def handle_result(dict1, dict2):
+    """
+    校验结果字段
+    :return:
+    """
+    if isinstance(dict1, dict) and isinstance(dict2, dict):
+        cmp_dict = DeepDiff(dict1, dict2, ignore_order=True).to_dict()
+        if cmp_dict.get("dictionary_item_added"):
+            print("case失败")
+            return False
+        else:
+            print("case成功")
+            return True
+    else:
+        return False
 
 
 if __name__ == '__main__':
-    a = handle_result('api3/getbanneradverver', '10002')
-    print(a)
+    dict1 = {"aaa": "AAA", "bb1": "BBB", "cc": [{"11": "22"}, {"11": "22"}]}
+    dict2 = {"aaa": "111", "bbb": "BBB", "cc": [{"11": "223333"}, {"11": "22"}]}
+    handle_result(dict1, dict2)
