@@ -172,9 +172,9 @@ function showOutput(id, name) {
 --></script>
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>开始时间:</strong> 2024-03-05 16:43:08</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:06.295201</p>
-<p class='attribute'><strong>状态:</strong> 通过 3</p>
+<p class='attribute'><strong>开始时间:</strong> 2024-03-05 17:02:31</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:06.161020</p>
+<p class='attribute'><strong>状态:</strong> 报错3</p>
 
 <p class='description'>项目描述：测试用例结果</p>
 <p class='description'>测试人员：TESTER</p>
@@ -205,31 +205,49 @@ function showOutput(id, name) {
     <td>查看</td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>Case.test_qcc.TestQcc</td>
     <td>3</td>
+    <td>0</td>
+    <td>0</td>
     <td>3</td>
-    <td>0</td>
-    <td>0</td>
     <td><a class="btn btn-link" href="javascript:showClassDetail('c1',3)">详细</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_01_1</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_01_1</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <a class="btn btn-link" οnfοcus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" role="button">
-        通过</a>
-    <div id='div_pt1.1' class="popup_window">
+    <a class="btn btn-link" οnfοcus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" role="button">
+        报错</a>
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a οnfοcus='this.blur();' οnclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a οnfοcus='this.blur();' οnclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: case开始执行
+ft1.1: case开始执行
 测试json格式通过
 case执行结束
+Traceback (most recent call last):
+  File "E:\anaconda3_39\lib\site-packages\ddt.py", line 221, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\code\PyTestAutomation\Case\test_qcc.py", line 48, in test_01
+    self.hand_excel.write_excel(case, '是否通过', '通过')
+  File "E:\code\PyTestAutomation\Util\handle_excel.py", line 52, in write_excel
+    df.to_excel(current_directory + fr'\File\{self.xlsx_name}', index=False)
+  File "E:\anaconda3_39\lib\site-packages\pandas\core\generic.py", line 2252, in to_excel
+    formatter.write(
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\formats\excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\excel\_openpyxl.py", line 60, in __init__
+    super().__init__(
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\excel\_base.py", line 1219, in __init__
+    self._handles = get_handle(
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'E:\\code\\PyTestAutomation\\File\\qcc.xlsx'
 
 
         </pre>
@@ -238,22 +256,40 @@ case执行结束
     </td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_01_2</div></td>
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_01_2</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <a class="btn btn-link" οnfοcus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" role="button">
-        通过</a>
-    <div id='div_pt1.2' class="popup_window">
+    <a class="btn btn-link" οnfοcus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" role="button">
+        报错</a>
+    <div id='div_ft1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a οnfοcus='this.blur();' οnclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+        <a οnfοcus='this.blur();' οnclick="document.getElementById('div_ft1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.2: case开始执行
+ft1.2: case开始执行
 测试json格式通过
 case执行结束
+Traceback (most recent call last):
+  File "E:\anaconda3_39\lib\site-packages\ddt.py", line 221, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\code\PyTestAutomation\Case\test_qcc.py", line 48, in test_01
+    self.hand_excel.write_excel(case, '是否通过', '通过')
+  File "E:\code\PyTestAutomation\Util\handle_excel.py", line 52, in write_excel
+    df.to_excel(current_directory + fr'\File\{self.xlsx_name}', index=False)
+  File "E:\anaconda3_39\lib\site-packages\pandas\core\generic.py", line 2252, in to_excel
+    formatter.write(
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\formats\excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\excel\_openpyxl.py", line 60, in __init__
+    super().__init__(
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\excel\_base.py", line 1219, in __init__
+    self._handles = get_handle(
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'E:\\code\\PyTestAutomation\\File\\qcc.xlsx'
 
 
         </pre>
@@ -262,22 +298,40 @@ case执行结束
     </td>
 </tr>
 
-<tr id='pt1.3' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_01_3</div></td>
+<tr id='ft1.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_01_3</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <a class="btn btn-link" οnfοcus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" role="button">
-        通过</a>
-    <div id='div_pt1.3' class="popup_window">
+    <a class="btn btn-link" οnfοcus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" role="button">
+        报错</a>
+    <div id='div_ft1.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a οnfοcus='this.blur();' οnclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+        <a οnfοcus='this.blur();' οnclick="document.getElementById('div_ft1.3').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.3: case开始执行
+ft1.3: case开始执行
 测试json格式通过
 case执行结束
+Traceback (most recent call last):
+  File "E:\anaconda3_39\lib\site-packages\ddt.py", line 221, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\code\PyTestAutomation\Case\test_qcc.py", line 48, in test_01
+    self.hand_excel.write_excel(case, '是否通过', '通过')
+  File "E:\code\PyTestAutomation\Util\handle_excel.py", line 52, in write_excel
+    df.to_excel(current_directory + fr'\File\{self.xlsx_name}', index=False)
+  File "E:\anaconda3_39\lib\site-packages\pandas\core\generic.py", line 2252, in to_excel
+    formatter.write(
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\formats\excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\excel\_openpyxl.py", line 60, in __init__
+    super().__init__(
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\excel\_base.py", line 1219, in __init__
+    self._handles = get_handle(
+  File "E:\anaconda3_39\lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'E:\\code\\PyTestAutomation\\File\\qcc.xlsx'
 
 
         </pre>
@@ -289,9 +343,9 @@ case执行结束
 <tr id='total_row'>
     <td>总计</td>
     <td>3</td>
+    <td>0</td>
+    <td>0</td>
     <td>3</td>
-    <td>0</td>
-    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>
