@@ -1,0 +1,54 @@
+{
+  "app": {
+    "qcc_001|/app/v1/extras/getDataChannelRedDot": {
+      "message": "成功",
+      "result": {
+        "showRedDot": false
+      },
+      "status": 200
+    },
+    "qcc_002|/app/v1/extras/getAdsBuoy": {
+      "message": "成功",
+      "result": {
+        "adsBuoy": null
+      },
+      "status": 200
+    },
+    "qcc_003|/app/v1/order/hasCoupon": {
+      "message": "成功",
+      "result": {
+        "advers": [
+          {
+            "click_count": "0",
+            "cms_id": "0226f29542d4465a808bd9593b756c80",
+            "company": "",
+            "des": "{\"android\":{\"page\":\"com.android.icredit.ui.CommonH5ShowActivity\",\"titleName\":\"幸运用户\",\"loadUrl\":\"https://apph5.qichacha.com/activities/tpl-for-vip/index?campaignId=fe9d12889cf0468280f7e4badbbf432a&activityCode=0226f29542d4465a808bd9593b756c80\"}}",
+            "digg_count": "0",
+            "keywords": "",
+            "pic": "https://eciapp-img.qichacha.com/ocr/configuration-managerment/1709208876190/APPbanner351x75%403x%201.png",
+            "picLarge": "https://eciapp-img.qichacha.com/ocr/configuration-managerment/1709208876190/APPbanner750_80%20%403x%201.png",
+            "pubdate": "2019-10-21",
+            "shareIcon": "",
+            "short_title": "幸运用户",
+            "source": "企查查",
+            "tags": "",
+            "title": "幸运用户",
+            "url": "https://apph5.qichacha.com/activities/tpl-for-vip/index?campaignId=fe9d12889cf0468280f7e4badbbf432a&activityCode=0226f29542d4465a808bd9593b756c80",
+            "version_code": null
+          }
+        ],
+        "resultData": {
+          "activityCode": "3273616af7db4c1db2fd660a378ee197",
+          "activityImgUrl": "",
+          "activityName": "幸运用户",
+          "activityUrl": "https://apph5.qichacha.com/activities/tpl-for-vip/index?campaignId=fe9d12889cf0468280f7e4badbbf432a&isPop=1&__without_bg=1&activityCode=3273616af7db4c1db2fd660a378ee197&img=&url=https%3A%2F%2Fapph5.qichacha.com%2Factivities%2Ftpl-for-vip%2Findex%3FcampaignId%3Dfe9d12889cf0468280f7e4badbbf432a%26isPop%3D1%26__without_bg%3D1",
+          "couponList": []
+        }
+      },
+      "status": 200
+    }
+  },
+  "web": {
+    "apsid": ""
+  }
+}

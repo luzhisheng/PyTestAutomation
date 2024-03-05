@@ -172,9 +172,9 @@ function showOutput(id, name) {
 --></script>
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>开始时间:</strong> 2024-03-05 17:12:32</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:06.257543</p>
-<p class='attribute'><strong>状态:</strong> 通过 3</p>
+<p class='attribute'><strong>开始时间:</strong> 2024-03-06 00:09:35</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:06.278764</p>
+<p class='attribute'><strong>状态:</strong> 通过 3 报错1</p>
 
 <p class='description'>项目描述：测试用例结果</p>
 <p class='description'>测试人员：TESTER</p>
@@ -227,9 +227,11 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: case开始执行
-测试json格式通过
-case执行结束
+pt1.1: 【2024-03-06 00:09:35.516109】 case开始执行
+【2024-03-06 00:09:37.574354】 测试json格式通过
+【2024-03-06 00:09:37.574354】 测试状态码通过
+【2024-03-06 00:09:37.575376】 测试字段对比通过
+【2024-03-06 00:09:37.637221】 case执行结束
 
 
         </pre>
@@ -251,9 +253,11 @@ case执行结束
         </div>
         <pre>
         
-pt1.2: case开始执行
-测试json格式通过
-case执行结束
+pt1.2: 【2024-03-06 00:09:37.637221】 case开始执行
+【2024-03-06 00:09:39.687943】 测试json格式通过
+【2024-03-06 00:09:39.687943】 测试状态码通过
+【2024-03-06 00:09:39.688921】 测试字段对比通过
+【2024-03-06 00:09:39.723583】 case执行结束
 
 
         </pre>
@@ -275,9 +279,50 @@ case执行结束
         </div>
         <pre>
         
-pt1.3: case开始执行
-测试json格式通过
-case执行结束
+pt1.3: 【2024-03-06 00:09:39.723583】 case开始执行
+【2024-03-06 00:09:41.767112】 测试json格式通过
+【2024-03-06 00:09:41.767112】 测试状态码通过
+【2024-03-06 00:09:41.769613】 测试字段对比通过
+【2024-03-06 00:09:41.792919】 case执行结束
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>unittest.suite._ErrorHolder</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a class="btn btn-link" href="javascript:showClassDetail('c2',1)">详细</a></td>
+</tr>
+
+<tr id='ft2.1' class='none'>
+    <td class='errorCase'><div class='testcase'>TestQcc)</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="btn btn-link" οnfοcus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" role="button">
+        报错</a>
+    <div id='div_ft2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a οnfοcus='this.blur();' οnclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.1: 【2024-03-06 00:09:39.723583】 case开始执行
+【2024-03-06 00:09:41.767112】 测试json格式通过
+【2024-03-06 00:09:41.767112】 测试状态码通过
+【2024-03-06 00:09:41.769613】 测试字段对比通过
+【2024-03-06 00:09:41.792919】 case执行结束
+Traceback (most recent call last):
+  File "E:\code\PyTestAutomation\Case\test_qcc.py", line 19, in tearDownClass
+    for method, result in cls._resultForDoCleanups.items():
+AttributeError: type object 'TestQcc' has no attribute '_resultForDoCleanups'
 
 
         </pre>
@@ -288,10 +333,10 @@ case执行结束
 
 <tr id='total_row'>
     <td>总计</td>
-    <td>3</td>
+    <td>4</td>
     <td>3</td>
     <td>0</td>
-    <td>0</td>
+    <td>1</td>
     <td>&nbsp;</td>
 </tr>
 </table>

@@ -1,18 +1,16 @@
 from deepdiff import DeepDiff
 
 
-def handle_result(dict1, dict2):
+def handle_result(dict_1, dict_2):
     """
-    校验结果字段
+    校验字典结果字段
     :return:
     """
-    if isinstance(dict1, dict) and isinstance(dict2, dict):
-        cmp_dict = DeepDiff(dict1, dict2, ignore_order=True).to_dict()
+    if isinstance(dict_1, dict) and isinstance(dict_2, dict):
+        cmp_dict = DeepDiff(dict_1, dict_2, ignore_order=True).to_dict()
         if cmp_dict.get("dictionary_item_added"):
-            print("case失败")
             return False
         else:
-            print("case成功")
             return True
     else:
         return False
