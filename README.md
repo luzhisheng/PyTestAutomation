@@ -1,15 +1,15 @@
 # 接口自动化测试
 
-- [一、前言](#一、前言)
-- [二、Mock 服务](#二、Mock 服务)
-- [三、DDT数据驱动](#三、DDT数据驱动)
-- [四、代码执行](#四、代码执行)
+- [前言](#前言)
+- [Mock 服务](#Mock-服务)
+- [DDT数据驱动](#DDT数据驱动)
+- [代码执行](#代码执行)
 
-## 一、前言
+## 前言
 
 我感觉写过爬虫的再去写测试真的是降维打击！！！本项目用到mock作为测试服务器，pandas操作xlsx文件，通过ddt数据驱动完成对目标接口的测试。
 
-## 二、Mock 服务
+## Mock 服务
 Moco 服务器，Moco 是一个用于快速创建Mock服务器的库。通常，你需要提供更多的参数来指定 Moco 服务器的配置文件以及其他选项。 通常，你可以使用以下命令来启动 Moco 服务器：
 
 ```shell
@@ -44,7 +44,7 @@ java -jar moco-runner-1.5.0-standalone.jar start -p 5555 -c 测试数据.json
 
 ![img.png](READMEIMG/1.png)
 
-## 三、DDT数据驱动
+## DDT数据驱动
 
 ![img.png](READMEIMG/2.png)
 
@@ -81,7 +81,7 @@ if __name__ == '__main__':
         ├─Report 报表导出
         ├─Util   工具类
 
-## 四、代码执行
+## 代码执行
 
 测试案例：`test_qcc.py`
 ```python
