@@ -1,8 +1,15 @@
 # 接口自动化测试
 
-我感觉写过爬虫的再去写测试真的是降维打击！！！
+  * [一、前言](#----)
+  * [二、Mock 服务](#--mock---)
+  * [三、DDT数据驱动](#--ddt----)
+  * [四、代码执行](#------)
 
-## 一、Mock 服务
+## 一、前言
+
+我感觉写过爬虫的再去写测试真的是降维打击！！！本项目用到mock作为测试服务器，pandas操作xlsx文件，通过ddt数据驱动完成对目标接口的测试。
+
+## 二、Mock 服务
 Moco 服务器，Moco 是一个用于快速创建Mock服务器的库。通常，你需要提供更多的参数来指定 Moco 服务器的配置文件以及其他选项。 通常，你可以使用以下命令来启动 Moco 服务器：
 
 ```shell
@@ -37,9 +44,30 @@ java -jar moco-runner-1.5.0-standalone.jar start -p 5555 -c 测试数据.json
 
 ![img.png](READMEIMG/1.png)
 
-## 二、DDT数据驱动
+## 三、DDT数据驱动
 
 ![img.png](READMEIMG/2.png)
+
+简单用法：
+
+```python
+import unittest
+from ddt import ddt, data
+
+# 使用 @ddt 装饰器来标记测试类
+@ddt
+class TestDataDrivenWithDDT(unittest.TestCase):
+
+    # 使用 @data 装饰器来指定测试数据
+    @data((2, 3, 5), (5, 7, 12), (10, 0, 10), (-1, 1, 0))
+    def test_addition(self, test_data):
+        a, b, expected = test_data
+        result = a + b
+        self.assertEqual(result, expected)
+
+if __name__ == '__main__':
+    unittest.main()
+```
 
 所有case代码编写在Case目录下，可以编写多个case，通过`main.py`合并执行
 
@@ -53,9 +81,9 @@ java -jar moco-runner-1.5.0-standalone.jar start -p 5555 -c 测试数据.json
         ├─Report 报表导出
         ├─Util   工具类
 
-## 三、代码执行
+## 四、代码执行
 
-测试案例：
+测试案例：`test_qcc.py`
 ```python
 from Util.handle_excel import HandExcel
 from Case.base import Base
